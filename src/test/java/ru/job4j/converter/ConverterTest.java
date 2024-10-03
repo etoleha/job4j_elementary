@@ -15,8 +15,8 @@ class ConverterTest {
     }
 
     @Test
-    void whenConvert180RblThen2dot4Dollar() {
-        float input = 180;
+    void whenConvert144RblThen2dot4Dollar() {
+        float input = 144;
         float expected = 2.4f;
         double output = Converter.rubleToDollar(input);
         double value = 0.0001f;
