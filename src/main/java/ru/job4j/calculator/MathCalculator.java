@@ -10,7 +10,7 @@ public class MathCalculator {
     }
 
     public static double sumSubstractAndDivide(double first, double second) {
-        return substract(first, second) +div(first, second);
+        return substract(first, second) + div(first, second);
     }
 
     public static double sumAll(double first, double second) {
