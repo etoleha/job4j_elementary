@@ -3,11 +3,11 @@ package ru.job4j.calculator;
 public class TemperatureFit {
 
     public static double idealTemperatureForFruits(int temperature) {
-        return temperature - 16.0;
+        return temperature - 2.0;
     }
 
     public static double idealTemperatureForMeat(int temperature) {
-        return temperature - 19.0;
+        return temperature - 5.0;
     }
 
     public static void main(String[] args) {
